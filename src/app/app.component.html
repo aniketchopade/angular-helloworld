@@ -1,3 +1,33 @@
-<input type="text" [(ngModel)]="name">
-<p> {{name}} </p>
-<app-servers>Loading....</app-servers>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3>
+                <app-servers>Loading....</app-servers>                
+            </h3>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-5">
+            <h3>
+                <app-errormessage> </app-errormessage>
+            </h3>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-5">
+            <h3 error>
+                <warning-message>Loading....</warning-message>
+            </h3>
+        </div>
+    </div>
+</div>
+
+<!-- <input type="text" [(ngModel)]="name">
+<p> {{name}} </p> -->
